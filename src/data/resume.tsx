@@ -26,7 +26,6 @@ import { Mui } from "@/components/ui/svgs/mui";
 export const DATA = {
   name: "Sahil Singh",
   initials: "SS",
-  url: "",
   location: "Ahmedabad, Gujarat",
   locationLink: "",
   description:

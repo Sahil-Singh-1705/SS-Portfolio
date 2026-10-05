@@ -111,7 +111,7 @@ export default async function Image() {
         const title = "Blog";
         const description = "Thoughts on software development, life, and more.";
         const imageUrl = DATA.avatarUrl
-            ? new URL(DATA.avatarUrl, DATA.url).toString()
+            ? new URL(DATA.avatarUrl,).toString()
             : undefined;
 
         return new ImageResponse(
