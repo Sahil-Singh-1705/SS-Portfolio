@@ -96,7 +96,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/SS-Resume.pdf", icon: FileText, label: "My Resume" },
+    { href: "/Sahil-Resume.pdf", icon: FileText, label: "My Resume" },
     // { href: "/project", icon: CodeXml, label: "My Projects" },
   ],
   contact: {
