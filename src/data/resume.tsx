@@ -23,6 +23,8 @@ import { Vercel } from "@/components/ui/svgs/vercel";
 
 import { Mui } from "@/components/ui/svgs/mui";
 
+import { Postgresql } from "@/components/ui/svgs/postgresql";
+
 export const DATA = {
   name: "Sahil Singh",
   initials: "SS",
@@ -72,6 +74,7 @@ export const DATA = {
         { name: "MySQL", icon: "/mysql-icon.png" },
         { name: "MongoDB", icon: Mongodb },
         { name: "Sequelize", icon: "/sequelize-logo.png" },
+        { name: "Postgresql", icon: Postgresql },
       ],
     },
 
