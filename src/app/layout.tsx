@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { FlickeringGrid } from "@/components/magicui/flickering-grid";
+import GokuPet from "@/components/assistant/GokuPet";
 
 const geist = Geist({
   subsets: ["latin"],
@@ -84,6 +85,7 @@ export default function RootLayout({
             <div className="relative z-10 max-w-2xl mx-auto py-12 pb-24 sm:py-24 px-6">
               {children}
             </div>
+            <GokuPet />
             <Navbar />
           </TooltipProvider>
         </ThemeProvider>
