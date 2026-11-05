@@ -93,7 +93,7 @@ export default function GokuPet() {
       try {
         const { PetRuntime, loadCodexPet } = await import("sprite-pet");
 
-        const spec = await loadCodexPet("/pets/goku/pet.json");
+        const spec = await loadCodexPet("/goku/pet.json");
 
         if (cancelled) return;
 
