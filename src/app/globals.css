@@ -133,7 +133,19 @@
     background-color: transparent;
   }
 
-.prose pre {
+  /* Light theme */
+  ::selection {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  /* Dark theme */
+  .dark ::selection {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .prose pre {
     @apply leading-relaxed bg-transparent! font-mono!;
   }
 
@@ -141,7 +153,8 @@
     @apply m-0! mx-1! border rounded-md! px-1.5 py-0.5 bg-muted/60 dark:bg-muted/40 text-[13px]! font-mono text-foreground/90!;
   }
 
-  .prose code::before, .prose code::after {
+  .prose code::before,
+  .prose code::after {
     @apply content-none!;
   }
 
@@ -212,7 +225,7 @@
     @apply px-6 py-4 align-middle m-0 whitespace-nowrap;
   }
 
-  .prose tr{
+  .prose tr {
     @apply hover:bg-accent/50! transition-colors! cursor-pointer! h-10!;
   }
 
@@ -232,5 +245,4 @@
   .prose :where(tbody tr:last-child td):not(:where([class~="not-prose"] *)) {
     @apply border-b-0;
   }
-
 }
